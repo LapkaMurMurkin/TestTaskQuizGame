@@ -11,6 +11,7 @@ namespace TestTaskQuizGame
     {
         [SerializeField]
         private Image _image;
+        
         private GridItemData _data;
         public GridItemData Data => _data;
 

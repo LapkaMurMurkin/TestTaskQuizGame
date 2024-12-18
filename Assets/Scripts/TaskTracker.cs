@@ -17,7 +17,7 @@ namespace TestTaskQuizGame
         private List<string> _previousTasks;
 
         [SerializeField]
-        private ParticleSystem _starsEffect;
+        private ParticleSystem _starEffect;
 
         public static Action AnsweredCorrectly;
 
@@ -40,8 +40,8 @@ namespace TestTaskQuizGame
         {
             if (item.Data.Name == _currentTask)
             {
-                _starsEffect.transform.position = item.transform.position;
-                _starsEffect.Play();
+                _starEffect.transform.position = item.transform.position;
+                _starEffect.Play();
 
                 DOTweenAnimator.FadeInBounce(item.transform, 0.5f)
                 .OnComplete(() => AnsweredCorrectly?.Invoke());

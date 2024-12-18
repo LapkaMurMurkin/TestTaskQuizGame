@@ -11,17 +11,19 @@ namespace TestTaskQuizGame
     public class Grid : MonoBehaviour
     {
         [SerializeField]
-        private GridLayoutGroup gridLayoutGroup;
-
-        [SerializeField]
         private GridItem _gridItemPrefab;
+
+        private GridLayoutGroup gridLayoutGroup;
 
         private List<GridItem> _activeItems;
         public ReadOnlyCollection<GridItem> ActiveItems => _activeItems.AsReadOnly();
+        
         private List<GridItem> _inactiveItems;
 
         public void Initialize()
         {
+            gridLayoutGroup = GetComponent<GridLayoutGroup>();
+
             _activeItems = new List<GridItem>();
             _inactiveItems = new List<GridItem>();
 

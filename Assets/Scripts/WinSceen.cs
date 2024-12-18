@@ -9,11 +9,11 @@ namespace TestTaskQuizGame
 {
     public class WinSceen : MonoBehaviour
     {
+        private CanvasGroup _canvasGroup;
         [SerializeField]
         private Button _restartButton;
         [SerializeField]
         private Image _loadingSceen;
-        private CanvasGroup _canvasGroup;
 
         public void Initialize()
         {
