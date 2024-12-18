@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79346e8fdfe9a49a9e353ac63db37b, type: 3}
+  m_Name: Level 2 Letters
+  m_EditorClassIdentifier: 
+  _columns: 2
+  _itemDatas:
+  - {fileID: 11400000, guid: 10354bef9c1d7994a894f335ec4a9a99, type: 2}
+  - {fileID: 11400000, guid: 1a670d677ab88c94596134e274528aba, type: 2}
+  - {fileID: 11400000, guid: 29ce20cc7c62cbf45841d8ae4694959b, type: 2}
+  - {fileID: 11400000, guid: 28e55727f0568384097b7e143f19730d, type: 2}
+  - {fileID: 11400000, guid: 1f663e5f4ec5e874f8fed842f5cfd739, type: 2}
+  - {fileID: 11400000, guid: 45e06167c81b63442933d6cd79e4d20a, type: 2}
